@@ -120,13 +120,15 @@ function NavBar2(props) {
           >
             GMM
           </Typography>
-          <Box sx={{ display: { xs: 'none', md: 'flex', justifyContent:"center", gap:'2rem', marginLeft:'26rem' } }}>
-            <a href={`${props.home}`}>Home</a>
-            <a href={`${props.hiw}`} >How It Works</a>
-            <a href={`${props.features}`} >Features</a>
-            <a href={`${props.reviews}`} >Reviews</a>
-            <a href={`${props.faq}`} >FAQ's</a>
-          </Box>
+          <div className='ml-56 lg:ml-60 xl:ml-72'>
+            <Box sx={{ display: { xs: 'none', md: 'flex', gap:'2rem' } }}>
+              <a href={`${props.home}`}>Home</a>
+              <a href={`${props.hiw}`} >How It Works</a>
+              <a href={`${props.features}`} >Features</a>
+              <a href={`${props.reviews}`} >Reviews</a>
+              <a href={`${props.faq}`} >FAQ's</a>
+            </Box>
+          </div>
             {/* For large Display */}
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' , justifyContent:"end" , marginRight:"auto" } }}>
             <Button sx={{ my: 2, color: 'white', display: 'block' }} onClick={SignUpHandle}>SignUp</Button>
