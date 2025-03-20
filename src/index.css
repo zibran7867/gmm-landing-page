@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+.hatch {
+    background: rgb(2,0,36);
+    background: linear-gradient(150deg, rgba(2,0,36,1) 30%, rgba(6,40,70,0.8048598027862279) 47%, rgba(0,212,255,1) 71%);
+}
+
+.nblue {
+    background-color: #1c0c3f;
+}
